@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OpenClaw / local state
+.test-*.md
+.test-*.json
+.tmp-*.pdf
